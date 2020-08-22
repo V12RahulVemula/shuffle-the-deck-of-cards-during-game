@@ -1,0 +1,81 @@
+import java.util.*;
+
+public class Cards {
+	public static void main(String[] args) {
+		ArrayList<String>  mylist = new ArrayList<String>(); 
+	    mylist.add("SAce");
+	    mylist.add("S2");
+	    mylist.add("S3");
+	    mylist.add("S4");
+	    mylist.add("S5");
+	    mylist.add("S6");
+	    mylist.add("S7");
+	    mylist.add("S8");
+	    mylist.add("S9");
+	    mylist.add("S10");
+	    mylist.add("SJack");
+	    mylist.add("SQueen");
+	    mylist.add("SKing");
+	   
+	    
+	    ArrayList<String>  mylist1 = new ArrayList<String>();
+	    mylist1.add("HAce");
+	    mylist1.add("H2");
+	    mylist1.add("H3");
+	    mylist1.add("H4");
+	    mylist1.add("H5");
+	    mylist1.add("H6");
+	    mylist1.add("H7");
+	    mylist1.add("H8");
+	    mylist1.add("H9");
+	    mylist1.add("H10");
+	    mylist1.add("HJack");
+	    mylist1.add("HQueen");
+	    mylist1.add("HKing");
+      
+	    
+	    ArrayList<String>  mylist2 = new ArrayList<String>();
+	    mylist2.add("DAce");
+	    mylist2.add("D2");
+	    mylist2.add("D3");
+	    mylist2.add("D4");
+	    mylist2.add("D5");
+	    mylist2.add("D6");
+	    mylist2.add("D7");
+	    mylist2.add("D8");
+	    mylist2.add("D10");
+	    mylist2.add("DJack");
+	    mylist2.add("DQueen");
+	    mylist2.add("DKing");
+      
+	    
+	    ArrayList<String>  mylist3 = new ArrayList<String>();
+	    mylist3.add("CAce");
+	    mylist3.add("C2");
+	    mylist3.add("C3");
+	    mylist3.add("C4");
+	    mylist3.add("C5");
+	    mylist3.add("C6");
+	    mylist3.add("C7");
+	    mylist3.add("C8");
+	    mylist3.add("C9");
+	    mylist3.add("C10");
+	    mylist3.add("CJack");
+	    mylist3.add("CQueen");
+	    mylist3.add("CKing");
+        
+
+	    ArrayList<String>  Deck = new ArrayList<String>();
+	    Deck.addAll(mylist);
+	    Deck.addAll(mylist1);
+	    Deck.addAll(mylist2);
+	    Deck.addAll(mylist3);
+	    
+	    Collections.shuffle(Deck);
+	    
+	   System.out.println(Deck);
+	    
+	    
+	    
+}
+}
